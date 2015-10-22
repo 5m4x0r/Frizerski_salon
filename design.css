@@ -1,0 +1,46 @@
+body {
+    
+    margin: 20px;
+}
+
+h2 {
+    
+    margin-top: 0;
+}
+
+.navigacija {
+    
+    display: block;
+    
+}
+
+.inline {
+    
+    display: inline-block;
+}
+
+.linki {
+    
+    float: right;
+}
+
+.linki a {
+    
+    margin-right: 10px;
+    color: white;
+    background-color:darkblue;
+    padding: 5px;
+    
+}
+
+.linki a:hover {
+    padding: 5px;
+    color: red;
+    background-color: blue;
+    text-decoration: none;
+}
+
+.img {
+    
+    width: auto;
+}
