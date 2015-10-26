@@ -1,5 +1,5 @@
 body {
-    
+   
     margin: 20px;
 }
 
@@ -11,21 +11,25 @@ h2 {
 .navigacija {
     
     display: block;
+    border-bottom: 3px solid black;
+    
+   
     
 }
 
 .inline {
-    
+    margin: 3px;
     display: inline-block;
 }
 
 .linki {
     
     float: right;
+   
 }
 
 .linki a {
-    
+
     margin-right: 10px;
     color: white;
     background-color:darkblue;
@@ -40,7 +44,74 @@ h2 {
     text-decoration: none;
 }
 
-.img {
+.storitve {
     
-    width: auto;
+    border-bottom: 3px solid black;
+    
+}
+
+
+#storitve {
+    
+    margin-top: 20px;
+    margin-left: 675px;
+}
+
+
+
+.storitve img {
+    border: dashed black 5px;
+    margin-top: -50px;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.strizenje {
+    
+    
+    margin: 125px;
+    display: inline-block;
+    
+    
+}
+
+.barvanje {
+    margin: 125px;
+    display: inline-block;
+   
+}
+
+.nega_las {
+    margin: 125px;
+    display: inline-block;
+     
+}
+
+.storitve p {
+    
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+.noga {
+    margin-top: -80px;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+    
+#kontakt {
+    
+    color: white;
+    font-weight: bold;
+}
+
+.delovni_cas {
+    display: inline;
+    float:right;
 }
